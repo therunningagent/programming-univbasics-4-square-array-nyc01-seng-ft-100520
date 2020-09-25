@@ -4,12 +4,12 @@ def square_array(numbers)
   # your code here
   count = 0 
   
-  while array[count] < array.length do
+  while numbers[count] < numbers.length do
     new_numbers = []
-    new_numbers.push(array[count] ** 2)
+    new_numbers.push(numbers[count] ** 2)
     count += 1
 end
 puts new_numbers
 end 
 
-square_array(array)
+square_array(numbers)
