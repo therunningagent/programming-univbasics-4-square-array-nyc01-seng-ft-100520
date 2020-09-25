@@ -12,4 +12,3 @@ puts new_numbers
 end 
 
 square_array(numbers)
-square_array(new_numbers)
