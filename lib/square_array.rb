@@ -8,6 +8,8 @@ def square_array(numbers)
     new_numbers.push(numbers[count] ** 2)
     count += 1
 end
-puts new_numbers
+
+return new_numbers
+
 end 
 
